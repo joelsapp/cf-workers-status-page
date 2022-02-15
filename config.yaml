@@ -37,3 +37,33 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+- id: www-ihrdc-com
+    name: www.ihrdc.com
+    url: 'https://www.ihrdc.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+- id: player-ihrdc-com
+    name: player.ihrdc.com
+    url: 'https://player.ihrdc.com/a'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+- id: www-ipims-com
+      name: www.ipims.com
+      url: 'https://www.ipims.com'
+      method: GET
+      expectStatus: 200
+      linkable: true # allows the title to be a link, default=true
+- id: www-petroleumonline-com
+      name: www.petroleumonline.com
+      url: 'https://www.petroleumonline.com'
+      method: GET
+      expectStatus: 200
+      linkable: true # allows the title to be a link, default=true
+- id: demo-01-cm-ihrdc-net
+      name: demo-01.cm.ihrdc.net
+      url: 'https://demo-01.cm.ihrdc.net/'
+      method: GET
+      expectStatus: 200
+      linkable: true # allows the title to be a link, default=true      
