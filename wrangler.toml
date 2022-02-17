@@ -5,6 +5,10 @@ account_id=""
 webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
 
+[env.prd]
+zone_id = 'a176737ec682591d9b7c503e1ea5244d'
+routes = ["status.ihrdc.com/*"]
+
 [triggers]
 crons = ["* * * * *"]
 
