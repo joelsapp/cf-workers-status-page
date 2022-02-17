@@ -4,7 +4,7 @@ settings:
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
-  kv-namespaces: [{binding="worker_status_data", id="e0be9ff0deab425b8d60d2e1f3918885", preview_id=""}]
+  ["kv-namespace id"]: [{binding="worker_status_data", id="e0be9ff0deab425b8d60d2e1f3918885", preview_id=""}]
   zone_id: "a176737ec682591d9b7c503e1ea5244d"
 
   allmonitorsOperational: 'All Systems Operational'
