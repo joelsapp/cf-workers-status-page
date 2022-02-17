@@ -4,7 +4,7 @@ account_id = "9dd993fc59d4349163da673586e17dd8"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2021-07-23"
-kv-namespaces = [{binding="worker_status_data", id="e0be9ff0deab425b8d60d2e1f3918885", preview_id=""}]
+kv_namespaces = [{binding="worker_status_data", id="e0be9ff0deab425b8d60d2e1f3918885", preview_id=""}]
 zone_id="a176737ec682591d9b7c503e1ea5244d"
 
 [triggers]
