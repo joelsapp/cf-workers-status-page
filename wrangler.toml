@@ -15,6 +15,6 @@ bucket = "out"
 entry-point = "./"
 
 # uncomment and adjust following if you are not using GitHub Actions
-[env.production]
+#[env.production]
 
 #route="xxx"
