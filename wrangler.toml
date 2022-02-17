@@ -19,6 +19,6 @@ entry-point = "./"
 #route="status2.ihrdc.com/*"
 
 
-[env.production]
+#[env.production]
 zone_id = 'a176737ec682591d9b7c503e1ea5244d'
 routes = ["status.ihrdc.com/*"]
